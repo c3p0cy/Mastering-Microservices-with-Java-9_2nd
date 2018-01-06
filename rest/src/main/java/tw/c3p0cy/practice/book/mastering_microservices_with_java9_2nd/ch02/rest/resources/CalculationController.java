@@ -18,7 +18,7 @@ import tw.c3p0cy.practice.book.mastering_microservices_with_java9_2nd.ch02.lib.m
  *
  */
 @RestController
-@RequestMapping("caculation")
+@RequestMapping("calculation")
 public class CalculationController {
 
   private static final String PATTERN = "^-?+\\d+\\.?+\\d*$";
